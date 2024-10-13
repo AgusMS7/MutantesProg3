@@ -1,10 +1,8 @@
 package controllers;
 
-package org.demo.parcialmagneto.controllers;
-
-import org.demo.parcialmagneto.dto.DnaRequest;
-import org.demo.parcialmagneto.dto.DnaResponse;
-import org.demo.parcialmagneto.services.DnaService;
+import dto.DnaRequest;
+import dto.DnaResponse;
+import services.DnaService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

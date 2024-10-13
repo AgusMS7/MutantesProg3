@@ -4,6 +4,9 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.6'
 }
 
+group = 'org.demo'
+version = '0.0.1-SNAPSHOT'
+
 java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(17)
@@ -21,16 +24,21 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // Para JPA
-	implementation 'org.springframework.boot:spring-boot-starter-web' // Para API REST
-	compileOnly 'org.projectlombok:lombok' // Lombok para reducción de boilerplate
-	developmentOnly 'org.springframework.boot:spring-boot-devtools' // DevTools para recarga
-	runtimeOnly 'com.h2database:h2' // Base de datos en memoria H2
-	annotationProcessor 'org.projectlombok:lombok' // Procesador de anotaciones de Lombok
-	testImplementation 'org.springframework.boot:spring-boot-starter-test' // Para pruebas
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher' // Para ejecutar pruebas
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-validation:3.3.4'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'com.h2database:h2'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+bootJar {
+	enabled = true
 }
