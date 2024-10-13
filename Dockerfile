@@ -1,6 +1,6 @@
 # image for metadata
 FROM ubuntu:latest
-LABEL authors="Lautaro"
+LABEL authors="Agustín Sandoval"
 
 # Build stage
 FROM alpine:latest as build
