@@ -11,4 +11,5 @@ public class DnaResponse {
     public boolean isMutant() {
         return isMutant;
     }
+
 }

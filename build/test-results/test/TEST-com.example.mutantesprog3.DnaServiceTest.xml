@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.mutantesprog3.DnaServiceTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-10-13T00:55:14" hostname="AGUS" time="0.022">
+<testsuite name="com.example.mutantesprog3.DnaServiceTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-10-14T04:54:08" hostname="AGUS" time="0.025">
   <properties/>
-  <testcase name="testSecondaryRightDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.012"/>
-  <testcase name="testTertiaryRightDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
+  <testcase name="testSecondaryRightDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.013"/>
+  <testcase name="testTertiaryRightDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
   <testcase name="testMainDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
-  <testcase name="testTertiaryLeftDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
+  <testcase name="testTertiaryLeftDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
   <testcase name="testRows()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
-  <testcase name="testSecondaryLeftDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
-  <testcase name="testColumns()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
-  <testcase name="testNonMutant()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
-  <testcase name="testMutant1()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
-  <testcase name="testMutant2()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
+  <testcase name="testSecondaryLeftDiagonals()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
+  <testcase name="testColumns()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
+  <testcase name="testNonMutant()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
+  <testcase name="testMutant1()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
+  <testcase name="testMutant2()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
   <testcase name="testMutant3()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
-  <testcase name="testMutant4()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
+  <testcase name="testMutant4()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
   <testcase name="testMutant5()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
   <testcase name="testNonMutant1()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.0"/>
   <testcase name="testNonMutant2()" classname="com.example.mutantesprog3.DnaServiceTest" time="0.001"/>
